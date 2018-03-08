@@ -1,0 +1,7 @@
+JAVA KOMMANDOER:
+
+Kørsel af jarfil uden manifest:
+java -cp name.jar package1.package2.package3.Classname
+
+Kørsel af executable jar med system inputparameter:
+java -Dconfig.folder=ymlFil -jar ./batch-diff-1.0.39-SNAPSHOT.jar inputNaturalogJava/UBC395-batch-diff.nat.dat inputNaturalOgJava/UBC395-batch-diff.java.dat U12160P

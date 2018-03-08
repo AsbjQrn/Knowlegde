@@ -1,0 +1,33 @@
+
+Rækkefølge ved oprettelse af git/maven projekt
+
+1) Opret nyt repository i github.
+2) Clone til overordnet mappe på lokal maskine.
+3) Gå ind i den nye folder der blev dannet.
+4) Lav en pomfil - her blev den taget fra https://github.com/programming-clinic/quick-start-maven-course.
+5) Kommandoer git: status, log, add, commit -m"meddelse"
+6) kommandoer maven: mvn compile - det er pom filen maven bruger som drejebog.
+
+Maven bygger på convention over configuration: project/src/main/java, src/main/resources - osv.
+
+Linux trick mkdir -p src/main/java laver alle manglende foldere.
+clear - consollen renses.
+
+git håndterer ikke tomme foldere - så hvis man vil tracke sin folderstruktur i git skal man lægge filer i. Dem kan man feks kalde .gitkeep
+
+Afvikle java jar kommando:
+
+java -cp name.jar package1.package2.package3.Classname
+
+Maven har tre indbyggede lifecycles - default(byg), clean(fjern target), site(dokumentation).
+
+install lifecycle kopierer target jar ud fra target mappen og ind i local m2 mavenrepository.
+
+git remote -v: verbose output omkring hvor vores repository stammer fra.
+git push origin master - origin er der vi fik vores kode fra til at begynde med og vi vil gerne pushe vores lokale master til origin. Vores lokale master bliver remote master. Hmmmmmmm (??)
+
+Maven bygger på plugins feks: <build><plugins><plugin>   "her kan man feks lægge en compilerplugin "
+   
+
+
+
