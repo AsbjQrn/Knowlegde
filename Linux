@@ -1,3 +1,6 @@
  
  Kopier filen geckodriver fra homebiblioteteket(/home/askou) til underbiblioteket (/geckodriver/) i forhold til der hvor du står (.), som hedder geckodriver.  
  cp ~/geckodriver ./geckodriver/ 
+ 
+ Se hvad der er i din PATH - ting der kendt af systemet alle steder.
+ echo $PATH
