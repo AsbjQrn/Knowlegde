@@ -4,3 +4,5 @@
  
  Se hvad der er i din PATH - ting der kendt af systemet alle steder.
  echo $PATH
+ 
+ lscpu - se om du kører 32 eller 64 bit med mere...
