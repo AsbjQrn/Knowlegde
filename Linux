@@ -1,1 +1,3 @@
-
+ 
+ Kopier filen geckodriver fra homebiblioteteket(/home/askou) til underbiblioteket (/geckodriver/) i forhold til der hvor du står (.), som hedder geckodriver.  
+ cp ~/geckodriver ./geckodriver/ 
