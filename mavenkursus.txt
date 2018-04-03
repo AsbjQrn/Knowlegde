@@ -32,4 +32,7 @@ Mavens site (her kan man feks dowloade plugins):
 
 maven.apache.org
 
+Her kan der søges på artifacts
+search.maven.org
+
 
