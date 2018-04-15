@@ -1,6 +1,6 @@
  
  https://www.linux.org/threads/file-permissions-chmod.4124/ - filepermissions.
- F.eks: chmod u=rwx g=rwx o=rwx /path/to/file       (u=user, g=group, o=owner)
+ F.eks: chmodn -R u=rwx g=rwx o=rwx /path/to/file       (u=user, g=group, o=owner)
  
  Kopier filen geckodriver fra homebiblioteteket(/home/askou) til underbiblioteket (/geckodriver/) i forhold til der hvor du står (.), som hedder geckodriver.  
  cp ~/geckodriver ./geckodriver/ 
