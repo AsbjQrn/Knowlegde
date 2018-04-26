@@ -1,0 +1,11 @@
+ 
+ https://www.linux.org/threads/file-permissions-chmod.4124/ - filepermissions.
+ F.eks: chmodn -R u=rwx g=rwx o=rwx /path/to/file       (u=user, g=group, o=owner)
+ 
+ Kopier filen geckodriver fra homebiblioteteket(/home/askou) til underbiblioteket (/geckodriver/) i forhold til der hvor du står (.), som hedder geckodriver.  
+ cp ~/geckodriver ./geckodriver/ 
+ 
+ Se hvad der er i din PATH - ting der kendt af systemet alle steder.
+ echo $PATH
+ 
+ lscpu - se om du kører 32 eller 64 bit med mere...

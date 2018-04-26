@@ -28,6 +28,11 @@ git push origin master - origin er der vi fik vores kode fra til at begynde med 
 
 Maven bygger på plugins feks: <build><plugins><plugin>   "her kan man feks lægge en compilerplugin "
    
+Mavens site (her kan man feks dowloade plugins):
 
+maven.apache.org
+
+Her kan der søges på artifacts
+search.maven.org
 
 
