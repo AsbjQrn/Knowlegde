@@ -18,6 +18,9 @@ git håndterer ikke tomme foldere - så hvis man vil tracke sin folderstruktur i
 Afvikle java jar kommando:
 
 java -cp name.jar package1.package2.package3.Classname
+i et sprgbatch progarm kan det foeks se således ud:
+java -Dconfig.folder=/apps/batchdiff/batch-diff/config -cp /apps/batchdiff/batch-diff/batch-diff-1.0.59.jar org.springframework.boot.loader.JarLauncher -outputpath=/home/x2004660/ /apps/batchdiff/source/d180628/l514202 /apps/batch/udtraek/d180628/l514202 U12160P
+
 
 Maven har tre indbyggede lifecycles - default(byg), clean(fjern target), site(dokumentation).
 
