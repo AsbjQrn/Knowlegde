@@ -1,11 +1,16 @@
  
- https://www.linux.org/threads/file-permissions-chmod.4124/ - filepermissions.
- F.eks: chmodn -R u=rwx g=rwx o=rwx /path/to/file       (u=user, g=group, o=owner)
  
- Kopier filen geckodriver fra homebiblioteteket(/home/askou) til underbiblioteket (/geckodriver/) i forhold til der hvor du står (.), som hedder geckodriver.  
- cp ~/geckodriver ./geckodriver/ 
+Fil og mappe tilladelser:
+chmod -R u=rwx g=rwx o=rwx /path/to/file       (u=user, g=group, o=other(Dem der ikke er user eller group), a=all)
  
- Se hvad der er i din PATH - ting der kendt af systemet alle steder.
- echo $PATH
+Se permission bits:
+ls -lha  
  
- lscpu - se om du kører 32 eller 64 bit med mere...
+Se hvad der er i din PATH - ting der kendt af systemet alle steder.
+echo $PATH
+ 
+lscpu - se om du kører 32 eller 64 bit med mere...
+
+Linux trick mkdir -p src/main/java laver alle manglende foldere.
+
+

@@ -1,6 +1,6 @@
-Linux trick mkdir -p src/main/java laver alle manglende foldere.
+
 clear - consollen renses.
 
 git håndterer ikke tomme foldere - så hvis man vil tracke sin folderstruktur i git skal man lægge filer i. Dem kan man feks kalde .gitkeep
 git remote -v: verbose output omkring hvor vores repository stammer fra.
-git push origin master - origin er der vi fik vores kode fra til at begynde med og vi vil gerne pushe vores lokale master til origin. Vores lokale master bliver remote master. Hmmmmmmm (??)
+git push origin master - origin er der vi fik vores kode fra til at begynde med og vi vil gerne pushe vores lokale master til origin. Vores lokale master bliver remote master. 

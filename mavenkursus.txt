@@ -38,4 +38,13 @@ maven.apache.org
 Her kan der søges på artifacts
 search.maven.org
 
+Overordnet projekt struktur i maven:
+
+Projektmappe/src/main/java/packagesti - feks - foto/program/askou
+                /test/groovy/
+                     /java/
+            /target
+            /pom.xml
+            
+
 
