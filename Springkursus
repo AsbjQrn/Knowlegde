@@ -29,3 +29,21 @@ IntelliJ - build/execution/deployment - compiler - flueben i 'make project autol
 
 Spring boot devtools - genbygger jævnligt. Chrome plugin reloader ved ændringer. 
 
+Rabat på støtre spring boot kursus: 
+https://www.udemy.com/spring-boot-intro/?couponCode=1NINETEEN9 
+
+IOC container 
+
+
+Bean scope:
+Singleton
+prototype
+request
+session
+globalsession -
+@Scope("session")
+
+Annotationer:
+@Autowired - kan bruges på en variabel (anbefales ikke), settermetode eller constructor (begge ok)
+@Restcontroller - bruges på klassen der er restcontroller
+@RequestMapping("/endpoint1") - får spring boot til at forstå at dette er et endpoint for http://localhost:8080/endpoint1
