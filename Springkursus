@@ -47,3 +47,9 @@ Annotationer:
 @Autowired - kan bruges på en variabel (anbefales ikke), settermetode eller constructor (begge ok)
 @Restcontroller - bruges på klassen der er restcontroller
 @RequestMapping("/endpoint1") - får spring boot til at forstå at dette er et endpoint for http://localhost:8080/endpoint1
+@SpringBootApplication - bruges der hvor main metoden findes.
+@ComponentScan("package.hej.hej","package.hej.hej1") - denne finder komponeter som indgår i Applikationscontexten. 
+Denne kan findes når man starter appen: ApplicationContext ctx = SpringApplication.run(..... 
+@ComponentScan finder kun elementer der er markeret som komponetner - dvs feks markeret med @Service, @Component osv
+
+
