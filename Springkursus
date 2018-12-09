@@ -25,3 +25,7 @@ mvn spring-boot:run (kald maven med pluginnavnet spring-boot, hvis run metode ka
 
 spring loaded og jrebel til hotwśwap af kode.
 
+IntelliJ - build/execution/deployment - compiler - flueben i 'make project autolmatically'
+
+Spring boot devtools - genbygger jævnligt. Chrome plugin reloader ved ændringer. 
+
