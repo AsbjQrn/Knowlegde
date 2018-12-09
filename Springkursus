@@ -50,6 +50,12 @@ Annotationer:
 @SpringBootApplication - bruges der hvor main metoden findes.
 @ComponentScan("package.hej.hej","package.hej.hej1") - denne finder komponeter som indgår i Applikationscontexten. 
 Denne kan findes når man starter appen: ApplicationContext ctx = SpringApplication.run(..... 
-@ComponentScan finder kun elementer der er markeret som komponetner - dvs feks markeret med @Service, @Component osv
+@ComponentScan finder kun elementer der er markeret som komponetner - dvs feks markeret med @Service, @Component, @Bean osv...
 
-
+Security:
+Når man skriver dependencyen <dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-test</artifactId>
+			<scope>test</scope>
+		</dependency> ind i et springboot project - så kommer der automatisk sikkerhhed på. man skal logge ind. '
+    Default password genereres og kan ses i consollen - user er "user"
