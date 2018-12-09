@@ -23,3 +23,5 @@ Bla build tool.
 Når man har valgt maven kan man afvikle sine apps med:
 mvn spring-boot:run (kald maven med pluginnavnet spring-boot, hvis run metode kaldes)
 
+spring loaded og jrebel til hotwśwap af kode.
+
