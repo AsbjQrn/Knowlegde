@@ -15,3 +15,10 @@ http://spring.io/projects
 Getting started guides:
 http://spring.io/guides
 
+I intelliJ kan man vælge spring initializer ved opstart af et nyt projekt. 
+Derunder kan man vælge forskellige facetter af det projekt man vil oprette.
+Bla build tool.
+
+Når man har valgt maven kan man afvikle sine apps med:
+mvn spring-boot:run (kald maven med pluginnavnet spring-boot, hvis run metode kaldes)
+
