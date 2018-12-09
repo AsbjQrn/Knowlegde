@@ -55,7 +55,7 @@ Denne kan findes når man starter appen: ApplicationContext ctx = SpringApplicat
 Security:
 Når man skriver dependencyen <dependency>
 			<groupId>org.springframework.security</groupId>
-			<artifactId>spring-security-test</artifactId>
+			<artifactId>spring-boot-starter-security</artifactId>
 			<scope>test</scope>
 		</dependency> ind i et springboot project - så kommer der automatisk sikkerhhed på. man skal logge ind. '
     Default password genereres og kan ses i consollen - user er "user"
