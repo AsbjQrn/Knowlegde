@@ -71,6 +71,13 @@ Custom configuration af sikkerhed:
 @Configuration
 @EnableGlobalMethodSecurity(sećuredEnabled=true)
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
+}
 
 
+public class KlasseMedMetoderDerSkalSikres{
+
+
+@Secured("ROLE_ADMIN")
+@Requestmapping("/list")
+String metodeDerSkalSikres(){}
 }
