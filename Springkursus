@@ -59,3 +59,4 @@ Når man skriver dependencyen <dependency>
 			<scope>test</scope>
 		</dependency> ind i et springboot project - så kommer der automatisk sikkerhhed på. man skal logge ind. '
     Default password genereres og kan ses i consollen - user er "user"
+Username og password kan lægges i propertyfilen som flg: security.user.name=ælaskdfjæasldkfj, security.user.password=asldkjf
