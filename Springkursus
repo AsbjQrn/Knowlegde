@@ -59,4 +59,18 @@ Når man skriver dependencyen <dependency>
 			<scope>test</scope>
 		</dependency> ind i et springboot project - så kommer der automatisk sikkerhhed på. man skal logge ind. '
     Default password genereres og kan ses i consollen - user er "user"
-Username og password kan lægges i propertyfilen som flg: security.user.name=ælaskdfjæasldkfj, security.user.password=asldkjf
+Username og password kan lægges i propertyfilen som flg: security.user.name=ælaskdfjæasldkfj, security.user.password=asldkjf, 
+security.user.role=user, På denne måde kan man autorisere - men der er stadig ingen authentication. Altså genkendelse af enkelte brugere.
+Hele applikationen er lukket med et brugernavn der har en rolle - ikke så brugbart endnu. 
+
+Sikkerhedsconfiguration:
+Man laver en klasse som man annoterer med @Configuration, og der enabler man sikkerhed på metodeniveau med 
+@EnableGlobalMethodSecurity(securedEnabled=true)
+
+Custom configuration af sikkerhed:
+@Configuration
+@EnableGlobalMethodSecurity(sećuredEnabled=true)
+public class SecurityConfig extends WebSecurityConfigurerAdapter {
+
+
+}
