@@ -85,3 +85,5 @@ String metodeDerSkalSikres(){}
 Eksempel på restsikkerhed vistnok i springboot:
 https://octoperf.com/blog/2018/03/08/securing-rest-api-spring-security/
 
+https://javarevisited.blogspot.com/2018/01/how-to-enable-http-basic-authentication-spring-security-java-xml-configuration.html
+
