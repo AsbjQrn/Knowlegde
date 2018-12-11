@@ -81,3 +81,7 @@ public class KlasseMedMetoderDerSkalSikres{
 @Requestmapping("/list")
 String metodeDerSkalSikres(){}
 }
+
+Eksempel på restsikkerhed vistnok i springboot:
+https://octoperf.com/blog/2018/03/08/securing-rest-api-spring-security/
+
