@@ -91,3 +91,6 @@ https://javarevisited.blogspot.com/2018/01/how-to-enable-http-basic-authenticati
 
 Authenticationprovider:
 https://www.baeldung.com/spring-security-authentication-provider
+
+Custom AuthenticationProvider:
+https://www.logicbig.com/tutorials/spring-framework/spring-security/custom-authentication-provider.html
