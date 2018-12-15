@@ -29,3 +29,4 @@ Dernæst skal man restarte ssh vhja kommandoen: sudo service ssh restart
 
 Se evt mere her: https://blog.trackets.com/2014/05/17/ssh-tunnel-local-and-remote-port-forwarding-explained-with-examples.html
 
+/etc/hosts - indeholder mapninger mellem en slags aliasser og ip adresser
