@@ -1,0 +1,12 @@
+https://blog.trackets.com/2014/05/17/ssh-tunnel-local-and-remote-port-forwarding-explained-with-examples.html
+
+
+ssh -L 9000:imgur.com:80 user@example.com
+ovenstående betyder -L (på localhost) 9000 (porten på localhost) skal pege på imgur.com:80 via jumpserveren user@example.com.7
+
+Hvis forbindelsen er sat rigtigt op kan man nå imgur.com ved at taste http://localhost:9000 i sin browser.
+
+
+ssh -R 9000:localhost:3000 user@example.com
+tror nok denne kommando skal indtasstes på den reomte host. (men ikke sikker). Kommandoen -R 9000 betyder at port 9000 er på den remote host og den skal ramme localhost:3000 via jumpserveren user@example.com 
+
