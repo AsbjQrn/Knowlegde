@@ -1,0 +1,37 @@
+Streams i java8 er enten termineller eller intermediate. Dvs de enten bliver færdige eller returnerer en ny stream.
+
+List<String> myList =
+    Arrays.asList("a1", "a2", "b1", "c2", "c1");
+
+myList
+    .stream()
+    .filter(s -> s.startsWith("c"))
+    .map(String::toUpperCase)
+    .sorted()
+    .forEach(System.out::println);
+
+// C1
+// C2
+
+foreach er terminal - ellers er der tale om íntermediate streams. dvs hver stream leverer en ny stream
+som den næste stream operation kan arbejde videre på. Dette kaldes en operation pipeline.
+
+For en liste over stream-operationer se:
+https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html
+
+i en operation pipeline gælder at alle operationer, skal være stateless og non-interfering. 
+Stateless vil sige at operationen er deterministisk. Og altså ikke afhænger
+af feks ydre varibale der kan ændre sig under afviklingen.
+
+Stream på collection:
+Arrays.asList("a1", "a2", "a3")
+    .stream()
+    .findFirst()
+    .ifPresent(System.out::println);  // a1
+
+En anden måde uden collection:    
+Stream.of("a1", "a2", "a3")
+    .findFirst()
+    .ifPresent(System.out::println);  // a1
+    
+    Stream.of - laver en stream ud fra en bunke objekter. 
